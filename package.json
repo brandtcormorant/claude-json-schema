@@ -1,0 +1,36 @@
+{
+  "name": "claude-json-schema",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A json schema for claude conversation downloads generated from conversations",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./schema": "./schema.js"
+  },
+  "scripts": {
+    "fmt": "prettier . --write"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "jsonschema"
+  ],
+  "homepage": "https://github.com/brandtcormorant/claude-json-schema#readme",
+  "bugs": {
+    "url": "https://github.com/brandtcormorant/claude-json-schema/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandtcormorant/claude-json-schema.git"
+  },
+  "license": "ISC",
+  "author": "brandtcormorant",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
