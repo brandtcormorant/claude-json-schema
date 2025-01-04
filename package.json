@@ -1,7 +1,7 @@
 {
   "name": "claude-json-schema",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A json schema for claude conversation downloads generated from conversations",
   "main": "index.js",
   "exports": {
